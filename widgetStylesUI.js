@@ -19,7 +19,7 @@
           z-index: 1000;
         }
         .widget-header {
-          background-color: #4caf50;
+          background-color: #0a406d;
           color: white;
           padding: 10px;
           text-align: center;
@@ -68,7 +68,7 @@
           z-index: 3000;
         }
         #excelUploader button {
-          background-color: #4caf50;
+          background-color: #0a406d;
           color: white;
           border: none;
           padding: 8px 12px;
@@ -77,7 +77,7 @@
           font-size: 14px;
         }
         #excelUploader button:hover {
-          background-color: #45a049;
+          background-color: #51555c;
         }
         #excelFileInput {
           display: none;
@@ -90,7 +90,7 @@
           z-index: 3000;
         }
         #widgetSizeToggle button {
-          background-color: #4caf50;
+          background-color: #0a406d;
           color: white;
           border: none;
           padding: 8px 12px;
@@ -99,7 +99,7 @@
           font-size: 14px;
         }
         #widgetSizeToggle button:hover {
-          background-color: #45a049;
+          background-color: #51555c;
         }
         /* Font size toggle */
         #fontSizeToggle {
@@ -109,7 +109,7 @@
           z-index: 3000;
         }
         #fontSizeToggle button {
-          background-color: #4caf50;
+          background-color: #0a406d;
           color: white;
           border: none;
           padding: 8px 12px;
@@ -118,7 +118,7 @@
           font-size: 14px;
         }
         #fontSizeToggle button:hover {
-          background-color: #45a049;
+          background-color: #51555c;
         }
         /* Mapping UI */
         #mappingUI {
