@@ -18,9 +18,6 @@ Gantt widget that can be loaded in a single line.  The folder structure is as fo
 HTML Page:
 Include only the main file:
 
-html
-Copy
-Edit
 <script src="ganttWidget.js"></script>
 ganttWidget.js:
 This file creates a global GanttWidget object, loads all module files in sequence, then calls
