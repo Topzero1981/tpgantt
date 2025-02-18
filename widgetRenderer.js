@@ -94,7 +94,7 @@
         var maxContainerHeight = currentWidgetSize === "normal" ? 400 : 1200;
         var actualContainerHeight = Math.min(naturalContainerHeight, maxContainerHeight);
         var headerHeight = 40;
-        var baseWidgetWidth = currentWidgetSize === "normal" ? 360 : 800;
+        var baseWidgetWidth = currentWidgetSize === "normal" ? 360 : 900;
         var overallWidgetWidth = baseWidgetWidth + (dynamicLeftMargin - baseLeftMargin) + 20;
         overallWidgetWidth = Math.min(window.innerWidth - 40, overallWidgetWidth);
         container.style("width", overallWidgetWidth + "px");
