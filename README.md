@@ -26,7 +26,4 @@ GanttWidget.loadDependencies() (which loads D3 and XLSX) and finally calls Gantt
 Modules:
 Each module attaches functions to the global GanttWidget namespace. For example, widgetRenderer.js defines init() and renderWidgets(), and widgetExcel.js defines the Excel upload handling.
 
-Usage:
-Whether no Excel file is uploaded (in which case random tasks are generated) or the user uploads an Excel file and maps its columns, the widget will render accordingly.
 
-This refactoring keeps your HTML file clean (only one script include) while breaking your code into several manageable files. Feel free to adjust or further modularize the code as needed!
