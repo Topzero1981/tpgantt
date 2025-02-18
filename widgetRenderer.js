@@ -91,7 +91,7 @@
         var defaultChartHeight = (currentWidgetSize === "normal" ? 200 : 400) - margin.top - margin.bottom;
         var naturalChartHeight = Math.max(defaultChartHeight, tasks.length * minBarHeight);
         var naturalContainerHeight = naturalChartHeight + margin.top + margin.bottom;
-        var maxContainerHeight = currentWidgetSize === "normal" ? 400 : 600;
+        var maxContainerHeight = currentWidgetSize === "normal" ? 400 : 1200;
         var actualContainerHeight = Math.min(naturalContainerHeight, maxContainerHeight);
         var headerHeight = 40;
         var baseWidgetWidth = currentWidgetSize === "normal" ? 360 : 800;
