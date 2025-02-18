@@ -128,7 +128,7 @@
           content.style("height", (actualContainerHeight - headerHeight) + "px")
             .style("overflow-y", "auto");
         }
-   //     content.style("overflow-x", "auto");
+        content.style("overflow-x", "hidden");
   
         // Append SVG chart.
         var svg = content.append("svg")
