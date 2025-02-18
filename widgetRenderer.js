@@ -4,7 +4,7 @@
       var currentWidgetSize = "normal"; // "normal" or "large"
       var currentFontSize = "normal";     // "normal" or "large"
       var currentTasksData = null;
-      var widgetOffset = 0; // For vertical stacking in large mode
+      var widgetOffset = 80; // For vertical stacking in large mode
       var widgetCounter = 0; // For grid layout in normal mode
   
       // Add styles and shared UI elements.
