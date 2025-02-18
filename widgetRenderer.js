@@ -48,7 +48,7 @@
       // Renders all widgets.
       function renderWidgets(tasks) {
         d3.selectAll('.widget').remove();
-        widgetOffset = 0;
+        widgetOffset = 50;
         widgetCounter = 0;
         var projects = Array.from(new Set(tasks.map(d => d.project)));
         projects.forEach(function (project) {
